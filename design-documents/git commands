@@ -1,0 +1,10 @@
+# git init
+# git add ./
+git status
+read -p "Press [Enter] key to start git commit..."
+git commit -m "start of day"
+# git remote add origin https://github.com/ciaranq/project1.git
+git push -u origin master
+
+
+
