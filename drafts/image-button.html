@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>       </title>
+    <!-- Place your stylesheet here-->
+  
+  
+    <style>
+  .caption div {
+    box-shadow: 0 0 5px #C8C8C8;
+    transition: all 0.3s ease 0s;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-circle {
+    border-radius: 0;
+}
+
+.ratio {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    height: 0;
+    padding-bottom: 100%;
+    position: relative;
+    width: 100%;
+}
+.img-circle {
+    border-radius: 50%;
+}
+.img-responsive {
+    display: block;
+    height: auto;
+    max-width: 100%;
+}
+
+/* ------hover circles */
+      
+      
+      
+
+ .block {
+    border: 0px solid green;
+    text-align: center;
+    vertical-align: middle;
+}
+.circle {
+    background: #62a087;
+    border-radius: 400px;
+    color: white;
+    height: 400px;
+    font-weight: bold;
+    width: 400px;
+    display: table;
+    margin: 20px auto;
+}
+.circle p {
+    vertical-align: middle;
+        font-size: 40px;
+       
+    display: table-cell;
+}
+.circle H1 {
+    vertical-align: middle;
+    display: block;
+}
+.circle H1 i.fa {
+  display:inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px #888;
+  padding: 0.5em 0.6em;
+
+}
+
+.img__overlay {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transition: opacity 0.25s;
+  z-index: 1;
+}
+
+.img__overlay {
+  background-color: rgba(46,204,113,0.4);
+  background: linear-gradient(65deg, rgba(46,204,113,0.4), rgba(243,156,18,0.4));
+  color: #fafafa;
+  font-size: 24px;
+}
+
+.img__overlay:hover {
+  opacity: 1;
+}
+
+
+.image-wrapper {
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0;
+    padding: 0;
+}
+.circle img {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: block;
+    border-radius: 50%;
+}
+      
+      
+
+  
+    </style>
+  
+    
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+        <link href="//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+
+  
+</head>
+<body>
+  <h2>
+    
+    <a href="" > this is the bootsnip link here</a>
+  </h2>
+
+
+<div class="container">
+	<div class="row">
+		<h2>Any image, size doesn´t matter, centered and respecting ratio</h2>
+	</div>
+    <div class="row">
+        <div class="col-sm-2">
+          <span><img src="../images/button-stay.jpg" class="img-circle img-responsive" alt="Cinque Terre"></span>
+                   <span><img src="../images/button-stay.jpg" class="img-circle img-responsive" alt="Cinque Terre"></span>
+                   <span><img src="../images/button-stay.jpg" class="img-circle img-responsive" alt="Cinque Terre"></span>
+                   <span><img src="../images/button-stay.jpg" class="img-circle img-responsive" alt="Cinque Terre"></span>
+                   <span><img src="../images/button-stay.jpg" class="img-circle img-responsive" alt="Cinque Terre"></span>
+          
+
+          
+            <p> Image in to circle</p>
+            <div  class="ratio img-responsive img-circle" style="background-image: url(../images/button-stay.jpg);"></div>
+            <p> Image in to circle with link</p>
+            <a href="do.html" class="ratio img-responsive img-circle" style="background-image: url(../images/button-stay.jpg);"></a>
+        </div>
+    </div>
+</div>
+
+
+<body>
+<div class="container-fluid">
+	<div class="row">
+		<h2>circle with image overlay on hover</h2>
+
+     </div>
+           <div class="row">
+               <div class="col-md-3 block">
+                   <div class="circle">
+                      <img class="circle" src="../images/button-stay.jpg" alt="">
+                      <div class="circle img__overlay"><p>Total Business Served +120</p></div>
+
+                   </div>
+               </div>
+               <div class="col-md-3 block">
+                   <div class="circle">
+                          <img class="circle" src="../images/button-stay.jpg" alt="">
+                         <div class="circle img__overlay"><p>Total products sold +340K TONS</p></div>
+                   </div>
+               </div>
+               <div class="col-md-3 block">
+                   <div class="circle">
+                        <img class="circle" src="http://lorempixel.com/850/850/?random=123" alt="">
+                        <div class="circle img__overlay"> <p>Total Customers served +200K TONS</p></div>
+                   </div>
+               </div>
+               <div class="col-md-3 block">
+                   <div class="circle">
+                       <img class="circle" src="http://lorempixel.com/850/850/?random=123" alt="">
+                        <div class="circle img__overlay"> <p>Total Data Analysed +500 TB</p></div>
+                   </div>
+                 </div>
+           </div>
+      
+</div>
+</body>
+
+
+
+  
+  
+  
+  
+  
+  
+  
+</body>
+</html>
